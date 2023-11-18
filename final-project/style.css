@@ -1,5 +1,5 @@
 
-
+ /* Hello World */
 
 
 * {
@@ -153,7 +153,7 @@ body {
 
 
 * {
-  /* box-sizing: border-box; */
+
   margin: 50;
 }
 
@@ -214,24 +214,23 @@ nav#example-4 ul li.active a, nav#example-4 ul a:hover {
 
 body {
   font-family: "Lato", sans-serif;
-  margin: 0; /* Remove default margin to prevent horizontal scroll on small screens */
+  margin: 0; 
 }
 
-/* Add a media query for smaller screens */
+
 @media only screen and (max-width: 600px) {
-  /* Adjust styles for smaller screens here */
+  
   #timeline,
   #band,
   #tour {
-    padding: 20px; /* Add padding to sections for better spacing on small screens */
+    padding: 20px;
   }
 
-  /* Adjust the font size of the timeline years on small screens */
+  
   .tl-year {
     font-size: 1.5rem;
   }
 
-  /* Make the images in the band and tour sections responsive */
   .w3-third img {
     width: 100%;
     height: auto;
