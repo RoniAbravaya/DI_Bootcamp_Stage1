@@ -15,7 +15,6 @@ html {
 body {
   min-block-size: 100%;
   font-family: system-ui, sans-serif;
-  
   display: grid;
   place-content: center;
 }   
@@ -144,7 +143,7 @@ body {
         margin: 0;
         padding: 0;
         background-image: url('Freddie-Mercury-Laptop-Wallpapers.jpg');
-        background-size: cover ;
+        background-size: cover;
         /* background-position: center center; */
         background-attachment: fixed;
         background-color: rgba(3, 22, 37, 0.5);
